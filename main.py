@@ -18,17 +18,20 @@ with st.sidebar:
 
 # --- PAGE 1: Project Description ---
 if st.session_state.page == "Home":
-    st.title("📊 Whatsapp Chat Analysis")
+    st.title("📊 Harate: Chat Analysis")
 
     st.write(
         """
-        This tool helps you analyze your **WhatsApp chat exports** by visualizing:
-        - 📅 **Chat frequencies over time**
-        - ⏰ **Most active hours**
-        - 📈 **Message trends per person**
-        - 🟩 **GitHub-style activity graph**
-        
-        Simply upload your exported `.txt` chat file on the next page to begin!
+        Unlock the hidden stories within your WhatsApp chats! This tool transforms your exported `.txt` files into powerful insights.
+
+        **Discover:**
+
+        * **Who dominates the conversation:** Identify your most active chatters.
+        * **When your group is most lively:** Uncover peak chat times.
+        * **How your chats evolve over time:** Visualize message trends and activity patterns.
+        * **A clear overview of your chat history:** Explore your activity with an intuitive GitHub-style heatmap.
+
+        Upload your `.txt` chat export on the next page and start exploring!
         """
     )
 
