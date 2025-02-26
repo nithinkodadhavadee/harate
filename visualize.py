@@ -95,7 +95,8 @@ def visualize_data(uploaded_file):
 
     wall_of_fame = [
         {"Sl No.": 1, "Category": "Most Active Person", "Winner": analyzed_data["most_active_participant"], "": f'{analyzed_data["messages_per_person"][analyzed_data["most_active_participant"]]} messages'},
-        {"Sl No.": 2, "Category": "Longest Message", "Winner": analyzed_data["longest_message"]["participant"] , "": f"{analyzed_data["longest_message"]["length"]} characters"},
+        # {"Sl No.": 2, "Category": "Longest Message", "Winner": analyzed_data["longest_message"]["participant"] , "": f"{analyzed_data["longest_message"]["length"]} characters"},
+        {"Sl No.": 2, "Category": "Longest Message", "Winner": analyzed_data["longest_message"]["participant"] , "": f"{analyzed_data['longest_message']['length']} characters"},
         {"Sl No.": 3, "Category": "Fastest Reply Time", "Winner": fastest_reply[0], "": f"{fastest_reply[1]['fastest_reply']} Seconds"},
         {"Sl No.": 4, "Category": "Slowest Reply Time", "Winner": slowest_reply[0], "": f"{slowest_reply[1]['slowest_reply']} Seconds"},
     ]
